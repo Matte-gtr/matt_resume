@@ -7,12 +7,13 @@
     </title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/style.css" type="text/css" />
 </head>
 
 <body>
     <header>
-        <div class="row">
+        <div class="row container-fluid">
             <a href="index.html" alt="profile photo">
                 <div class="col-md-4 logo">
                 </div>
@@ -26,17 +27,17 @@
                 </div>
                 <div class="row">
                     <ul class="list-inline clearfix">
-                        <li class="col-xs-6 col-md-3 ul-menu-color-home">
-                            <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span><span> Home</span></a>
+                        <li class="col-xs-6 col-md-3 ul-menu-color-home menuitem hvr-shutter-out-vertical">
+                            <a href="#"><span class="glyphicon glyphicon-home" aria-hidden="true" id="grow"></span><span class="buttontext">Home</span></a>
                         </li>
-                        <li class="col-xs-6 col-md-3 ul-menu-color-resume">
-                            <a href="#"><span class="glyphicon glyphicon-stats" aria-hidden="true"></span><span> Resume</span></a>
+                        <li class="col-xs-6 col-md-3 ul-menu-color-resume menuitem hvr-shutter-out-vertical">
+                            <a href="#"><span class="glyphicon glyphicon-stats" aria-hidden="true" id="grow"></span><span class="buttontext">Resume</span></a>
                         </li>
-                        <li class="col-xs-6 col-md-3 ul-menu-color-contact">
-                            <a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span><span> Contact</span></a>
+                        <li class="col-xs-6 col-md-3 ul-menu-color-contact menuitem hvr-shutter-out-vertical">
+                            <a href="#"><span class="glyphicon glyphicon-info-sign" aria-hidden="true" id="grow"></span><span class="buttontext">Contact</span></a>
                         </li>
-                        <li class="col-xs-6 col-md-3 ul-menu-color-download">
-                            <a href="#"><span class="glyphicon glyphicon-cloud-download" aria-hidden="true"></span><span> Download CV</span></a>
+                        <li class="col-xs-6 col-md-3 ul-menu-color-download menuitem hvr-shutter-out-vertical">
+                            <a href="#"><span class="glyphicon glyphicon-cloud-download" aria-hidden="true" id="grow"></span><span class="buttontext">Download CV</span></a>
                         </li>
                     </ul>
                 </div>
@@ -48,7 +49,18 @@
     <section>
 
     </section>
-    <footer>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-sm-4">
+<h5 class="uppercase general-sub">about</h5>
+            </div>
+            <div class="col-sm-4">
+<h5 class="uppercase general-sub">download my cv</h5>
+            </div>
+            <div class="col-sm-4">
+<h5 class="uppercase general-sub">contact</h5>
+            </div>
+        </div>
 
     </footer>
 </body>
