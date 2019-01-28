@@ -56,6 +56,10 @@ header {
 
 /*------------------------color styling-----------------------*/
 
+section {
+    background-color: #525252;
+}
+
 .bg-color-name-title {
     background-color: #676767;
 }
@@ -109,6 +113,13 @@ header {
     background-color: #ffffff;
 }
 
+footer {
+    background-color: #525252;
+    min-height: 120px;
+    margin: 0;
+    color: #fafafa;
+}
+
 /*------------------------special margins etc-----------------------*/
 
 .uppercase {
@@ -136,6 +147,23 @@ h4 {
     padding: 20px;
 }
 
+.section-column {
+    padding: 0 30px 30px 30px;
+    float: none;
+    display: table-cell;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-heading {
+    font-family: "exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
 /*------------------------hover classes-----------------------*/
 
 .menuitem a:hover #grow {
@@ -148,13 +176,6 @@ h4 {
 }
 
 /*------------------------footer-----------------------*/
-
-footer {
-    background-color: #676767;
-    min-height: 120px;
-    margin: 0;
-    color: #fafafa;
-}
 
 p .glyphicon-cloud-download {
     text-decoration: none;
