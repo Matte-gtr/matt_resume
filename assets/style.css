@@ -64,6 +64,7 @@ header {
 
 section {
     background-color: #525252;
+    height: 100%;
 }
 
 .bg-color-name-title {
@@ -141,12 +142,12 @@ h4 {
     margin: 0;
 }
 
-#spaced {
+.spaced {
     padding: 20px;
 }
 
 .section-column {
-    padding: 0 30px 30px 30px;
+    padding: 0 30px 30px;
     float: left;
     display: table-cell;
 }
@@ -164,7 +165,7 @@ h4 {
 
 /*------------------------hover classes-----------------------*/
 
-.menuitem a:hover #grow {
+.menuitem a:hover .grow {
     font-size: 37px;
 }
 
